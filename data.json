@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "name": "Dhanada",
+      "age": "20",
+      "gender": "female",
+      "id": 1
+    },
+    {
+      "name": "Dhanada",
+      "age": "20",
+      "gender": "female",
+      "blood": "B+ve",
+      "id": 2
+    },
+    {
+      "name": "sipra",
+      "age": "19",
+      "gender": "Female",
+      "blood": "B-ve",
+      "id": 3
+    }
+  ],
+  "donors": [
+    {
+      "name": "Ram",
+      "age": "25",
+      "gender": "male",
+      "blood": "O+ve",
+      "id": 1
+    },
+    {
+      "name": "Dhanada",
+      "age": "19",
+      "gender": "female",
+      "blood": "B+ve",
+      "id": 2
+    }
+  ]
+}
