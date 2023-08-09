@@ -8,15 +8,22 @@
   </head>
   <body>
     <nav>
-      <a href="/">Home</a>
+      <a href="home.html">Home</a>
       <a href="signin.html">Sign in</a>
       <a href="signup.html">Sign up</a>
     </nav>
-    <div id="signin_div">
-      <h1>Sign in</h1>
-      <input type="name" placeholder="Enter name" id="name" />
-      <input type="text" placeholder="Enter blood group" id="blood" />
-      <button id="signin">Sign in</button>
+    <div class="signin-parent-container">
+      <div class="signin-container">
+        <div class="signin-image">
+          <img src="asign.jpg" alt="Blood Logo" />
+        </div>
+        <div class="signin-form">
+          <h1>Sign in</h1>
+          <input type="text" placeholder="Username" id="username" />
+          <input type="password" placeholder="Password" id="password" />
+          <button id="signin-button">Sign in</button>
+        </div>
+      </div>
     </div>
     <script src="signin.js"></script>
   </body>
