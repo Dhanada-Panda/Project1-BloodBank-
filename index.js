@@ -6,7 +6,7 @@ fetch("http://localhost:3000/donors")
     return res.json();
   })
   .then((data) => {
-    const tableBody = document.getElementById("data-table");
+    const tableBody = document.getElementById("donor-table"); // Corrected from data-table to donor-table
 
     if (Array.isArray(data)) {
       data.forEach((user) => {
